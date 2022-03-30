@@ -12,4 +12,16 @@ describe('Nav component', () => {
     });
 
     // snapshot test
+    it('matches snapshot', () => {
+        const { asFragment } = render(<Nav />);
+        expect(asFragment()).toMatchSnapshot();
+    });
+});
+
+describe('links are visible', () => {
+    it('inserts text into the links', () => {
+        const { getByTestId } = render(<Nav />);
+        expect(getByTestId('link')).toHaveTextContent('Cory Thompson');
+        expect(getByTestId('about')).toHaveTextContent('About Me');
+    });
 })
