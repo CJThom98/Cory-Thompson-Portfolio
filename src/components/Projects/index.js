@@ -2,6 +2,7 @@ import React from 'react';
 import photo from "../../assets/img/band_browser.png";
 import photo2 from "../../assets/img/pw_gen.png";
 import photo3 from "../../assets/img/PNP.png";
+import photo4 from "../../assets/img/bug_track.png";
 
 function Projects() {
 
@@ -51,6 +52,16 @@ function Projects() {
             </div>
             <div>
                 <h3>Budget Tracker</h3>
+                <p>Technology: MongoDB, Express.js, JQuery, Javascript</p>
+                <div className="flex-row">
+                    <a href='https://pacific-plains-57929.herokuapp.com/'>
+                        <img 
+                            src={photo4}
+                            alt="Budget Tracker Image"
+                            className="img-thumbnail mx-1"
+                        />
+                    </a>
+                </div>
             </div>
         </section>
     );
