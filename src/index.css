@@ -290,3 +290,13 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+/*Footer Script*/
+
+.footer-items {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}

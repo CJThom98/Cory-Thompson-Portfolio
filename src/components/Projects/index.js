@@ -13,6 +13,9 @@ function Projects() {
             <div className=''>
                 <h3>Band Browser</h3>
                 <p>Technology: HTML, CSS, Javascript</p>
+                <a href="https://github.com/CJThom98/band-browser">
+                    <p>Github Repo</p>
+                </a>
                 <div className="flex-row">
                     <a href='https://cjthom98.github.io/band-browser/'>
                         <img 
@@ -27,6 +30,9 @@ function Projects() {
             <div>
                 <h3>Password Generator</h3>
                 <p>Technology: Javascript</p>
+                <a href="https://github.com/CJThom98/password_generator">
+                    <p>Github Repo</p>
+                </a>
                 <div className="flex-row">
                     <a href="https://cjthom98.github.io/password_generator/">
                         <img 
@@ -38,8 +44,11 @@ function Projects() {
                 </div>
             </div>
             <div>
-                <h3>Full Stack</h3>
+                <h3>Pawnee Parks and Recreation</h3>
                 <p>Technology: HTML, CSS, Javascript, MySQL, Express.js, Node.js</p>
+                <a href="https://github.com/CJThom98/pawnee_parks_and_rec">
+                    <p>Github Repo</p>
+                </a>
                 <div className="flex-row">
                     <a href="https://cjthom98.github.io/pawnee_parks_and_rec/">
                         <img 
@@ -53,6 +62,9 @@ function Projects() {
             <div>
                 <h3>Budget Tracker</h3>
                 <p>Technology: MongoDB, Express.js, JQuery, Javascript</p>
+                <a href="https://github.com/CJThom98/track-my-money">
+                    <p>Github Repo</p>
+                </a>
                 <div className="flex-row">
                     <a href='https://pacific-plains-57929.herokuapp.com/'>
                         <img 

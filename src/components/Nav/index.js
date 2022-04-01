@@ -1,30 +1,11 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Nav() {
-    const categories = [
-        {
-          name: "front end",
-          description:
-            "create an interactive front end project with a group"
-        },
-        { 
-          name: "generator", 
-          description: "create the javascript for a password generator site"
-        },
-        { 
-          name: "full stack", 
-          description: "create a full stack site with a group" 
-        },
-        { 
-          name: "budget", 
-          description: "create offline capablities for a budget tracker site" 
-        },
-    ];
+function Nav(props) {
     
-    const handleClick = () => {
-        console.log("click handled")
-    }
+    const {
+        projectsSelected,
+        setProjectsSelected
+    } = props
 
     return(
         <header date-testid="header" className="flex-row px-1">
@@ -35,23 +16,21 @@ function Nav() {
             </h2>
             <nav>
                 <ul className='flex-row'>
-                    <li className='mx-2'>
-                        <a data-testid="about" href='#about' onClick={() => handleClick()}>
+                    <li className={`mx-2 ${'navActive'}`}>
+                        <a data-testid="about" href='#about' onClick={() => setProjectsSelected(false)}>
                             About Me
                         </a>
                     </li>
-                    <li className={"mx-2"}>
-                        <span onClick={() => handleClick()}>
+                    <li className={`mx-2 ${'navActive'}`}>
+                        <a href='#contact-form' onClick={() => setProjectsSelected(false)}>
                             Contact
+                        </a>
+                    </li>
+                    <li className={`mx-2 ${projectsSelected && 'navActive'}`}>
+                        <span onClick={() => setProjectsSelected(true)}>
+                            Projects
                         </span>
                     </li>
-                    {categories.map((category) => (
-                        <li className="mx-1" key={category.name} >
-                            <span onClick={() => { handleClick(); }}>
-                                {capitalizeFirstLetter(category.name)}
-                            </span>
-                        </li>
-                    ))}
                 </ul>
             </nav>
         </header>
