@@ -42,7 +42,7 @@ function Nav() {
                     </li>
                     <li className={"mx-2"}>
                         <span onClick={() => handleClick()}>
-                            Connect
+                            Contact
                         </span>
                     </li>
                     {categories.map((category) => (
