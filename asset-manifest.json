@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cory-thompson-portfolio/static/css/main.df46d5f0.css",
+    "main.js": "/cory-thompson-portfolio/static/js/main.4ac9461c.js",
+    "static/js/787.80dc7b20.chunk.js": "/cory-thompson-portfolio/static/js/787.80dc7b20.chunk.js",
+    "static/media/profile_picture.jpg": "/cory-thompson-portfolio/static/media/profile_picture.21a207c10df615a4daae.jpg",
+    "static/media/PNP.png": "/cory-thompson-portfolio/static/media/PNP.e64a391b36fe8c0d92ff.png",
+    "index.html": "/cory-thompson-portfolio/index.html",
+    "main.df46d5f0.css.map": "/cory-thompson-portfolio/static/css/main.df46d5f0.css.map",
+    "main.4ac9461c.js.map": "/cory-thompson-portfolio/static/js/main.4ac9461c.js.map",
+    "787.80dc7b20.chunk.js.map": "/cory-thompson-portfolio/static/js/787.80dc7b20.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df46d5f0.css",
+    "static/js/main.4ac9461c.js"
+  ]
+}
