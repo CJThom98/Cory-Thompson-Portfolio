@@ -7,7 +7,7 @@ import photo4 from "../../assets/img/bug_track.png";
 function Projects() {
 
     return (
-        <section className="">
+        <section>
             <h1>Projects</h1>
             <br />
             <div className=''>

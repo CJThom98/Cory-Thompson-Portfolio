@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: #c1cfda;
   color: var(--light);
   font-family: 'Poiret One', cursive;
 }
@@ -47,6 +47,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  color: #011627;
 }
 
 h1 {
@@ -77,6 +78,7 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
+  color: #011627;
 }
 
 a {
@@ -116,6 +118,10 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: 0.8;
+}
+
+.contact {
+  color: #011627;
 }
 
 img {
@@ -239,6 +245,18 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
+.img-profile {
+  width: auto;
+  height: 350px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  float: left;
+}
+
+.about-text {
+  text-align: justify;
+  font-size: 18px;
+}
 
 .modalBackdrop {
   background: rgba(0, 0, 0, 0.65);
@@ -298,5 +316,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+}
+
+.footer-links {
+  color: #157a6e;
 }

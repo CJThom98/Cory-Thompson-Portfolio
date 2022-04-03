@@ -1,10 +1,12 @@
 import React from 'react';
+import ProPhoto from '../../assets/img/profile_picture.jpg';
 
 function About() {
     return (
         <section className='my-5'>
             <h1 id='about'>About Me</h1>
-            <p>
+            <img src={ProPhoto} alt="Profile Picture of Cory Thompson" className="img-profile mx-1"></img>
+            <p className="about-text">
                 I graduated from John Brown University in May of 2020 with my Bachelors of Arts degree in History with a Museum Studies Minor. Since then, I have been working to try to get a jumpstart on a career. Due to graduating in the middle of the COVID-19 Pandemic, it has been a difficult challenge but there hasn't been any lack of trying. <br />
                 <br />
                 I started out working as a substitute teacher for my local school districts as a way to explore education as a possible career route. I did that for about a year but came to the decision that education wasn't for me. I got a new job working as a customer service agent for Sykes Enterprises, INC., to see if customer service was my career path. After about three months, I left the position after coming to a similar conclusion that customer service wasn't for me. I briefly returned to substituting until I learned about the full stack web developer boot camp from UT Austin. <br />
