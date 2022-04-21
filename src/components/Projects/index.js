@@ -3,6 +3,7 @@ import photo from "../../assets/img/band_browser.png";
 import photo2 from "../../assets/img/pw_gen.png";
 import photo3 from "../../assets/img/PNP.png";
 import photo4 from "../../assets/img/bug_track.png";
+import photo5 from "../../assets/img/chore_wheel.png";
 
 function Projects() {
 
@@ -70,6 +71,22 @@ function Projects() {
                         <img 
                             src={photo4}
                             alt="Budget Tracker Image"
+                            className="img-thumbnail mx-1"
+                        />
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3>Wheel of Chore Prototype</h3>
+                <p>Technology: MongoDB, Express.js, React, HTML, CSS, Javascript</p>
+                <a href="https://github.com/teresacabell/wheel-of-chore">
+                    <p>Github Repo</p>
+                </a>
+                <div className="flex-row">
+                    <a href="https://teresacabell.github.io/wheel-of-chore/">
+                        <img 
+                            src={photo5}
+                            alt="Wheel of Chore Image"
                             className="img-thumbnail mx-1"
                         />
                     </a>
