@@ -61,17 +61,15 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 footer h2 {
     color: #1c2c3c;
     font-size: 20px;
     margin: 0;
-}
-
-footer div {
-    line-height: 1.5;
-    text-align: right;
 }
 /* FOOTER STYLES END */
 
@@ -107,10 +105,65 @@ footer div {
     color: #1c2c3c;
     flex: 1;
     text-decoration: none;
+    border: 5px solid #1c2c3c;
+    overflow: hidden;
 }
 
-.box img {
+.about-me {
     width: 100%;
+    height: 100%;
+    background-image: url(../../img/coffee-cup.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-shadow: inset 0 0 0 1000px rgba(116, 132, 148, 0.7);
+    padding-bottom: 16px;
+    transition: all .5s;
+}
+
+.about-me:hover {
+    transform: scale(1.2);
+}
+
+.resume {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/stack-of-paper.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-shadow: inset 0 0 0 1000px rgba(116, 132, 148, 0.7);
+    padding-bottom: 16px;
+    transition: all .5s;
+}
+
+.resume:hover {
+    transform: scale(1.2);
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/clipboard.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-shadow: inset 0 0 0 1000px rgba(116, 132, 148, 0.7);
+    padding-bottom: 16px;
+    transition: all .5s;
+}
+
+.projects:hover {
+    transform: scale(1.2);
 }
 
 .box-descriptor {
@@ -129,8 +182,6 @@ footer div {
     margin-bottom: 15px;
     text-align: center;
 }
-
-
 
 /* UTILITIES */
 .text-left {
