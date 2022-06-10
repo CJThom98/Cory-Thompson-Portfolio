@@ -106,6 +106,7 @@ footer div {
     background: #748494;
     color: #1c2c3c;
     flex: 1;
+    text-decoration: none;
 }
 
 .box img {
