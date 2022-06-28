@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bebfc0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER/NAV BAR STYLES START */
+
+header {
+    padding: 20px 35px;
+    background-color: #748494;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: #1c2c3c;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #1c2c3c;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: #1c2c3c;
+}
+
+/* HEADER/NAVBAR STYLES END */
+
+/* FOOTER STYLES START */
+footer {
+    background: #748494;
+    padding: 20px 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer h2 {
+    color: #1c2c3c;
+    font-size: 20px;
+    margin: 0;
+}
+/* FOOTER STYLES END */
+
+/* SECTION STYLE START */
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: #1c2c3c;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+}
+
+.primary-border {
+    border-color: #5b543e;
+}
+
+/* SECTION STYLE END */
+
+/* BOX STYLE START */
+
+.boxes {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    margin: 20px;
+    background: #748494;
+    color: #1c2c3c;
+    flex: 1;
+    text-decoration: none;
+    border: 5px solid #1c2c3c;
+    overflow: hidden;
+}
+
+.about-me {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/coffee-cup.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-shadow: inset 0 0 0 1000px rgba(116, 132, 148, 0.7);
+    padding-bottom: 16px;
+    transition: all .5s;
+}
+
+.about-me:hover {
+    transform: scale(1.2);
+}
+
+.resume {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/stack-of-paper.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-shadow: inset 0 0 0 1000px rgba(116, 132, 148, 0.7);
+    padding-bottom: 16px;
+    transition: all .5s;
+}
+
+.resume:hover {
+    transform: scale(1.2);
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../img/clipboard.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-shadow: inset 0 0 0 1000px rgba(116, 132, 148, 0.7);
+    padding-bottom: 16px;
+    transition: all .5s;
+}
+
+.projects:hover {
+    transform: scale(1.2);
+}
+
+.box-descriptor {
+    padding: 25px;
+    line-height: 1.3;
+}
+
+.box-descriptor h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.box-descriptor h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* UTILITIES */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
