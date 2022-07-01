@@ -2,6 +2,9 @@
 
 ![Main-page](./src/img/read-me-photo.png)
 
+## Description
+Showing off my projects, resume, and sharing a little info about me
+
 ## Link
 https://cjthom98.github.io/cory-thompson-portfolio/
 
